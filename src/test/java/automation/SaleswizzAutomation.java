@@ -70,6 +70,7 @@ public class SaleswizzAutomation extends Locators {
         }
 
         uploadPhotoEditIcon1.click();
+        System.out.println();
         String path = "C:\\Users\\iamsh\\Music\\SaleswizzAutomation\\src\\test\\resources\\images\\catalogGrp.jpg";
         fileUpload(path);
 
