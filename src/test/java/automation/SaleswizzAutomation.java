@@ -68,7 +68,7 @@ public class SaleswizzAutomation extends Locators {
             AssertionUtils.softAssertions("Catalogue Group Name is not entered", false);
             Thread.sleep(8000);
         }
-        System.out.println();
+
         uploadPhotoEditIcon1.click();
         String path = "C:\\Users\\iamsh\\Music\\SaleswizzAutomation\\src\\test\\resources\\images\\catalogGrp.jpg";
         fileUpload(path);
