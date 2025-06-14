@@ -13,10 +13,10 @@ Feature: Automating SalesWizz Application
       | catalogue | Chain |
 
     Then User adds the product
-      | productTitle       | Luffy               |
-      | productDescription | King of the Priates |
+      | productTitle       | Twisted Chain               |
+      | productDescription | Gold Chain |
       | productSKU         | 1                   |
       | productUOM         | 10                  |
       | productTag         | Anime               |
-      | orderValue         | 500                 |
-      | orderDate          | 02/06/2025          |
+      | orderValue         | 5                 |
+      | orderDate          | 24/06/2025          |

@@ -70,7 +70,7 @@ public class SaleswizzAutomation extends Locators {
         }
 
         uploadPhotoEditIcon1.click();
-        String path = "C:\\Users\\iamsh\\Music\\SaleswizzAutomation\\src\\test\\resources\\images\\catalogGrp.jpg";
+        String path = "C:\\Users\\PC\\IdeaProjects\\SalesWizzAutomation\\src\\test\\resources\\images\\Gold.jpg";
         fileUpload(path);
 
         groupName.sendKeys(data.get("groupName"));
@@ -113,7 +113,7 @@ public class SaleswizzAutomation extends Locators {
         }
 
         uploadPhotoEditIcon1.click();
-        String path = "C:\\Users\\iamsh\\Music\\SaleswizzAutomation\\src\\test\\resources\\images\\catalog.png";
+        String path = "C:\\Users\\PC\\IdeaProjects\\SalesWizzAutomation\\src\\test\\resources\\images\\Chain.jpg";
         fileUpload(path);
 
         catalogueName.sendKeys(data.get("catalogue"));
@@ -141,7 +141,7 @@ public class SaleswizzAutomation extends Locators {
         addProductButton.click();
 
         uploadImage.click();
-        String path = "C:\\Users\\iamsh\\Music\\SaleswizzAutomation\\src\\test\\resources\\images\\addProduct.jpg";
+        String path = "C:\\Users\\PC\\IdeaProjects\\SalesWizzAutomation\\src\\test\\resources\\images\\chain1.jpg";
         fileUpload(path);
 
         productTitle.sendKeys(data.get("productTitle"));
